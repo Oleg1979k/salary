@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::resource('employee',\App\Http\Controllers\EmployeeController::class);
+
 Route::get('/', function () {
     return view('welcome');
 });
